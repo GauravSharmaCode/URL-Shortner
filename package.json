@@ -1,0 +1,25 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This is a small URL Shortner Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "url",
+    "url_shortner",
+    "url-shortner",
+    "shortner"
+  ],
+  "author": "Gaurav Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4"
+  }
+}
